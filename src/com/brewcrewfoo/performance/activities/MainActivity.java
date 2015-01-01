@@ -435,9 +435,6 @@ public class MainActivity extends Fragment implements Constants,
         if (mVoltageExists) {
             titles.add(getString(R.string.tab_volt_settings));
         }
-        if (mLowmemExists) {
-            titles.add(getString(R.string.tab_oom_settings));
-        }
         return titles.toArray(new String[titles.size()]);
     }
 
